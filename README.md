@@ -1,8 +1,10 @@
-# Project-1
+## Automated ELK Stack Deployment
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yaml and config file may be used to install only certain pieces of it, such as Filebeat.
+The files in this repository were used to configure the network depicted below.
+Project1-Diagram.png
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Enter the playbook file: 
+  - _TODO: Enter the playbook file._
 
 This document contains the following details:
 - Description of the Topology
@@ -94,4 +96,5 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-![image](https://user-images.githubusercontent.com/79118682/116488410-53220f80-a860-11eb-9c26-1b89db166565.png)
+![image](https://user-images.githubusercontent.com/79118682/116488879-80bb8880-a861-11eb-98ff-9208451a000a.png)
+
