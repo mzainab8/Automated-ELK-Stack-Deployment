@@ -83,11 +83,11 @@ SSH into the control node and follow the steps below:
 -	add the machine, its IP, and ansible_python_interpreter=/usr/bin/python3 to the hosts in the ansible.cfg 
 -	nano /etc/ansible/hosts
 -	under the [webservers] header add:
--	 10.0.0.4 ansible_python_interpreter=/usr/bin/python3 
+-	10.0.0.4 ansible_python_interpreter=/usr/bin/python3 
 -	10.0.0.5 ansible_python_interpreter=/usr/bin/python3 
 -	10.0.0.6 ansible_python_interpreter=/usr/bin/python3
 -	under the [elk] header add:
--	 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
+-	10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 -	Copy the install-elk.yml and filebeat-playbook.yml file to /etc/ansible.
 -	Update the install-elk.yml and filebeat-playbook.yml file to include the machine you want use the playbooks on by changing the hosts name on the 3rd line.
 -	Run the playbook and navigate to http://40.112.213.52:5601/app/kibana to check that the installation worked as expected.
